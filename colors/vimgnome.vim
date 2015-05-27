@@ -73,10 +73,10 @@ hi Debug                            guifg=#4285F4   gui=none
 hi SpecialChar                      guifg=#4285F4   gui=none
 hi Title                            guifg=#4285F4   gui=none
 
-hi DiffAdd          guibg=#F4B400   guifg=#EEEEEE
-hi DiffChange       guibg=#F4B400   guifg=#EEEEEE
-hi DiffDelete       guibg=#F4B400   guifg=#EEEEEE
-hi DiffText         guibg=#F4B400   guifg=#EEEEEE
+hi DiffAdd          guibg=#C6493E   guifg=#FFFFFF   cterm=bold ctermbg=4  ctermfg=4
+hi DiffChange       guibg=#C6493E   guifg=#FFFFFF   ctermbg=5  ctermfg=4
+hi DiffDelete       guibg=#178D53   guifg=#FFFFFF   cterm=bold ctermfg=4 ctermbg=6
+hi DiffText         guibg=#C6493E   guifg=#FFFFFF   cterm=bold ctermbg=1 
 
 
 ""User Interface
@@ -108,7 +108,7 @@ hi PmenuThumb       guibg=#4285F4   guifg=#EEEEEE
 hi Visual           guibg=#656565 
 hi VertSplit        guibg=#c2bfa5   guifg=grey40    gui=none        cterm=reverse
 hi VertSplit        guibg=#c2bfa5   guifg=grey40    gui=none        cterm=reverse
-hi Folded           guibg=black     guifg=grey40    ctermfg=grey    ctermbg=darkgrey
+hi Folded           guibg=#427BDA   guifg=#EEEEEE   ctermfg=grey    ctermbg=darkgrey
 hi FoldColumn       guibg=black     guifg=grey20    ctermfg=4       ctermbg=7
 hi StatusLine       guibg=#c2bfa5   guifg=black     gui=none        cterm=bold,reverse
 hi StatusLineNC     guibg=#c2bfa5   guifg=grey40    gui=none        cterm=reverse

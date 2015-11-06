@@ -81,9 +81,9 @@ hi DiffText         guibg=#C6493E   guifg=#FFFFFF   cterm=bold ctermbg=1
 
 ""User Interface
 hi Cursor           guibg=#ffffff   guifg=#000000
-hi Search           guibg=#0F9D58   guifg=#626262 
-hi IncSearch        guibg=#0F9D58   guifg=#626262 
-hi SignColumn       guibg=#0F9D58   guifg=#626262 
+hi Search           guibg=#0F9D58   guifg=#000000 
+hi IncSearch        guibg=#0F9D58   guifg=#000000 
+hi SignColumn       guibg=#0F9D58   guifg=#000000 
 hi ColorColumn      guibg=darkred   guifg=#0F9D58
 
 hi WarningMsg       guifg=red       gui=bold,undercurl

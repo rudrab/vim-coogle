@@ -51,15 +51,15 @@ hi Type                             guifg=#0F9D58   gui=bold
 hi StorageClass                     guifg=#0F9D58   gui=bold
 hi Structure                        guifg=#0F9D58   gui=bold
 
-hi Constant                         guifg=#EEEEEE   
-hi Boolean                          guifg=#EEEEEE   
-hi Operator                         guifg=#EEEEEE   gui=bold 
+hi Constant                         guifg=#EEEEEE      
+hi Boolean                          guifg=#46bf85   
+hi Operator                         guifg=#46bf85   gui=bold 
 hi Tag                              guifg=#EEEEEE   gui=bold   
 hi Ignore                           guifg=#EEEEEE   gui=none
 hi Underlined                       guifg=#EEEEEE   gui=underline
 
-hi Number                           guifg=#F4B400 
-hi Float                            guifg=#F4B400   
+hi Number                           guifg=#98befd 
+hi Float                            guifg=#98befd   
 
 hi MatchParen       guibg=#DB4437   guifg=#262626   gui=bold
 hi Error            guibg=#DB4437   guifg=#262626   gui=bold
@@ -100,8 +100,8 @@ hi LineNr           guibg=#262626   guifg=#EEEEEE   gui=none
 hi Titled           guifg=#EEEEEE   gui=none
 
 hi Pmenu            guibg=#4285F4   guifg=#EEEEEE
-hi PmenuSel         guibg=#4285F4   guifg=#EEEEEE
-hi PmenuSBar        guibg=#4285F4   guifg=#EEEEEE
+hi PmenuSel         guibg=#f9cd63   guifg=#4285F4
+hi PmenuSBar        guibg=#ffffff   guifg=#EEEEEE
 hi PmenuThumb       guibg=#4285F4   guifg=#EEEEEE
 
 

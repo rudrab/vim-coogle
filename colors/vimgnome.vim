@@ -38,7 +38,8 @@ hi Exception                        guifg=#DB4437   gui=bold
 hi Identifier                       guifg=#4285F4   gui=bold  
 hi Function                         guifg=#4285F4   gui=bold  
 
-hi Comment                          guifg=#6c6c6c   
+hi Comment                          guifg=#FFF59D   
+"hi Comment                          guifg=#6c6c6c   
 
 hi Typedef                          guifg=#0F9D58   gui=italic
 hi Include                          guifg=#0F9D58   gui=bold

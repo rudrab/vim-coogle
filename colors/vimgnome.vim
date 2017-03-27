@@ -15,64 +15,66 @@ let g:colors_name='vimgnome'
 
 "COLORS DEFINED
 "RED    = #DB4437
-"GREEN  = #0F9D58
-"YELLOW = #F4B400
-"BLUE   = #4285F4
+"GREEN  = #34A16C
+"YELLOW = #FFF8B2
+"BLUE   = #2196F3
 "BLACK  = #333333
 "DGREY  = #656565
 "LGREY  = #EEEEEE
 "WHITE  = #FFFFFF
+"BROWN  = #FFB499
+"TEAL   = #00D7C0
 
 " Colors for Syntax Highlighting.
-hi Normal           guibg=#262626   guifg=#ffffff   
-hi String                           guifg=#4285F4   gui=italic
-hi Character                        guifg=#4285F4   gui=italic     
-hi Conditional                      guifg=#DB4437   gui=bold   
-hi Label                            guifg=#DB4437   gui=bold  
-hi Repeat                           guifg=#DB4437   gui=bold  
-hi Statement                        guifg=#DB4437   gui=bold  
-hi Keyword                          guifg=#DB4437   gui=bold  
-hi Exception                        guifg=#DB4437   gui=bold  
+hi Normal           guibg=#262626   guifg=#FFFFFF                   ctermfg=white
+hi Comment                          guifg=#FFF8B2                   ctermfg=lightgrey
+
+hi String                           guifg=#00D7C0   gui=italic      ctermfg=lightblue   cterm=italic
+hi Character                        guifg=#00D7C0   gui=italic      ctermfg=lightblue   cterm=italic
+
+hi Conditional                      guifg=#DB4437   gui=bold        ctermfg=red  cterm=bold
+hi Label                            guifg=#DB4437   gui=bold        ctermfg=red  cterm=bold
+hi Repeat                           guifg=#DB4437   gui=bold        ctermfg=red  cterm=bold 
+hi Statement                        guifg=#DB4437   gui=bold        ctermfg=red  cterm=bold
+hi Keyword                          guifg=#DB4437   gui=bold        ctermfg=red  cterm=bold
+hi Exception                        guifg=#DB4437   gui=bold        ctermfg=red  cterm=bold
 
 
-hi Identifier                       guifg=#4285F4   gui=bold  
-hi Function                         guifg=#4285F4   gui=bold  
+hi Identifier                       guifg=#2196F3   gui=bold        ctermfg=blue  cterm=bold    
+hi Function                         guifg=#2196F3   gui=bold        ctermfg=blue  cterm=bold  
+hi Special                          guifg=#2196F3   gui=none        ctermfg=blue
+hi Delimiter                        guifg=#2196F3   gui=none        ctermfg=blue
+hi Debug                            guifg=#2196F3   gui=none        ctermfg=blue
+hi SpecialChar                      guifg=#2196F3   gui=none        ctermfg=blue
+hi Title                            guifg=#2196F3   gui=none        ctermfg=blue
 
-hi Comment                          guifg=#FFF59D   
-"hi Comment                          guifg=#6c6c6c   
 
-hi Typedef                          guifg=#0F9D58   gui=italic
-hi Include                          guifg=#0F9D58   gui=bold
-hi Define                           guifg=#0F9D58   gui=bold
-hi Macro                            guifg=#0F9D58   gui=bold
-hi Precondit                        guifg=#0F9D58   gui=bold
-hi Preproc                          guifg=#0F9D58   gui=bold
-hi SpecialComment                   guifg=#0F9D58   gui=bold
-hi Type                             guifg=#0F9D58   gui=bold
-hi StorageClass                     guifg=#0F9D58   gui=bold
-hi Structure                        guifg=#0F9D58   gui=bold
+hi Typedef                          guifg=#34A16C   gui=italic      ctermfg=darkgreen  cterm=italic
+hi Include                          guifg=#34A16C   gui=bold        ctermfg=darkgreen  cterm=bold
+hi Define                           guifg=#34A16C   gui=bold        ctermfg=darkgreen  cterm=bold
+hi Macro                            guifg=#34A16C   gui=bold        ctermfg=darkgreen  cterm=bold
+hi Precondit                        guifg=#34A16C   gui=bold        ctermfg=darkgreen  cterm=bold
+hi Preproc                          guifg=#34A16C   gui=bold        ctermfg=darkgreen  cterm=bold
+hi SpecialComment                   guifg=#34A16C   gui=bold        ctermfg=darkgreen  cterm=bold
+hi Type                             guifg=#34A16C   gui=bold        ctermfg=darkgreen  cterm=bold
+hi StorageClass                     guifg=#34A16C   gui=bold        ctermfg=darkgreen  cterm=bold
+hi Structure                        guifg=#34A16C   gui=bold        ctermfg=darkgreen  cterm=bold
+hi Operator                         guifg=#34A16C   gui=bold        ctermfg=darkgreen  cterm=bold
 
-hi Constant                         guifg=#EEEEEE      
-hi Boolean                          guifg=#46bf85   
-hi Operator                         guifg=#46bf85   gui=bold 
-hi Tag                              guifg=#EEEEEE   gui=bold   
-hi Ignore                           guifg=#EEEEEE   gui=none
-hi Underlined                       guifg=#EEEEEE   gui=underline
+hi Constant                         guifg=#EEEEEE                   ctermfg=lightgrey 
+hi Tag                              guifg=#EEEEEE   gui=bold        ctermfg=lightgrey  cterm=bold  
+hi Ignore                           guifg=#EEEEEE   gui=none        ctermfg=lightgrey
+hi Underlined                       guifg=#EEEEEE   gui=underline   ctermfg=lightgrey  cterm=underline
 
-hi Number                           guifg=#98befd 
-hi Float                            guifg=#98befd   
+hi Boolean                          guifg=#FFB499                   ctermfg=brown 
+hi Number                           guifg=#FFB499                   ctermfg=brown
+hi Float                            guifg=#FFB499                   ctermfg=brown   
 
-hi MatchParen       guibg=#DB4437   guifg=#262626   gui=bold
-hi Error            guibg=#DB4437   guifg=#262626   gui=bold
+hi MatchParen       guibg=#DB4437   guifg=#262626   gui=bold        ctermfg=red  cterm=bold
+hi Error            guibg=#DB4437   guifg=#262626   gui=bold        ctermfg=red  ctermbg=black cterm=bold
 
-hi Todo             guibg=#0F9D58   guifg=#262626   gui=bold
-hi Wildmenu         guibg=#0F9D58   guifg=#262626   gui=bold
-
-hi Special                          guifg=#4285F4   gui=none
-hi Delimiter                        guifg=#4285F4   gui=none
-hi Debug                            guifg=#4285F4   gui=none
-hi SpecialChar                      guifg=#4285F4   gui=none
-hi Title                            guifg=#4285F4   gui=none
+hi Todo             guibg=#34A16C   guifg=#262626   gui=bold        ctermfg=darkgreen  cterm=bold
+hi Wildmenu         guibg=#34A16C   guifg=#262626   gui=bold        ctermfg=darkgreen  cterm=bold
 
 hi DiffAdd          guibg=#C6493E   guifg=#FFFFFF   cterm=bold ctermbg=4  ctermfg=4
 hi DiffChange       guibg=#C6493E   guifg=#FFFFFF   ctermbg=5  ctermfg=4
@@ -81,11 +83,11 @@ hi DiffText         guibg=#C6493E   guifg=#FFFFFF   cterm=bold ctermbg=1
 
 
 ""User Interface
-hi Cursor           guibg=#ffffff   guifg=#000000
-hi Search           guibg=#0F9D58   guifg=#000000 
-hi IncSearch        guibg=#0F9D58   guifg=#000000 
-hi SignColumn       guibg=#0F9D58   guifg=#000000 
-hi ColorColumn      guibg=darkred   guifg=#0F9D58
+hi Cursor           guibg=#ffffff   guifg=#000000  ctermbg=white  ctermfg=black
+hi Search           guibg=#FF8A80   guifg=#B71C1C 
+hi IncSearch        guibg=#FFFFFF   guifg=#009688 
+hi SignColumn       guibg=#34A16C   guifg=#FF8A80 
+hi ColorColumn      guibg=darkred   guifg=#34A16C
 
 hi WarningMsg       guifg=red       gui=bold,undercurl
 hi ErrorMsg         guifg=red       gui=bold,undercurl
@@ -100,10 +102,10 @@ hi CursorLineNr     guibg=#262626   guifg=#EEEEEE   gui=bold
 hi LineNr           guibg=#262626   guifg=#EEEEEE   gui=none
 hi Titled           guifg=#EEEEEE   gui=none
 
-hi Pmenu            guibg=#4285F4   guifg=#EEEEEE
-hi PmenuSel         guibg=#f9cd63   guifg=#4285F4
+hi Pmenu            guibg=#2196F3   guifg=#EEEEEE
+hi PmenuSel         guibg=#f9cd63   guifg=#2196F3
 hi PmenuSBar        guibg=#ffffff   guifg=#EEEEEE
-hi PmenuThumb       guibg=#4285F4   guifg=#EEEEEE
+hi PmenuThumb       guibg=#2196F3   guifg=#EEEEEE
 
 
 hi Visual           guibg=#656565 

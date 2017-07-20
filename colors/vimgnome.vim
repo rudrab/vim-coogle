@@ -100,7 +100,7 @@ hi SpecialKey       guifg=#EEEEEE   gui=none
 hi NonText          guifg=#EEEEEE   gui=none
 hi CursorLineNr     guibg=#262626   guifg=#EEEEEE   gui=bold
 "hi LineNr          guibg=#262626   guifg=#DB4437 ctermfg=green  gui=bold
-hi LineNr	          guibg=#303030   guifg=#90f020			ctermfg=green cterm=none
+hi LineNr	          guibg=#303030   guifg=#90f020	gui=bold	ctermfg=green cterm=none
 hi Titled           guifg=#EEEEEE   gui=none
 
 hi Pmenu            guibg=#2196F3   guifg=#EEEEEE

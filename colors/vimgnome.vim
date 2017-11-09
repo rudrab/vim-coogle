@@ -99,9 +99,9 @@ hi Question         guifg=blue      gui=bold
 hi Directory        guifg=blue      gui=none
 hi SpecialKey       guifg=#EEEEEE   gui=none
 hi NonText          guifg=#EEEEEE   gui=none
-hi CursorLineNr     guibg=#262626   guifg=#EEEEEE   gui=bold
+hi CursorLineNr     guibg=#30474f   guifg=#EEEEEE   gui=bold
 "hi LineNr          guibg=#262626   guifg=#DB4437 ctermfg=green  gui=bold
-hi LineNr	          guibg=#132731   guifg=#90f020	gui=bold	ctermfg=green cterm=none
+hi LineNr	          guibg=#202f36   guifg=#90f020	gui=bold	ctermfg=green cterm=none
 hi Titled           guifg=#EEEEEE   gui=none
 
 hi Pmenu            guibg=#2196F3   guifg=#EEEEEE
@@ -110,7 +110,7 @@ hi PmenuSBar        guibg=#ffffff   guifg=#EEEEEE
 hi PmenuThumb       guibg=#2196F3   guifg=#EEEEEE
 
 
-hi Visual           guibg=#656565 
+hi Visual           guibg=#4E6068   guifg=white     gui=bold 
 hi VertSplit        guibg=#c2bfa5   guifg=grey40    gui=none        cterm=reverse
 hi VertSplit        guibg=#c2bfa5   guifg=grey40    gui=none        cterm=reverse
 hi Folded           guibg=#427BDA   guifg=#EEEEEE   ctermfg=grey    ctermbg=darkgrey

@@ -26,7 +26,7 @@ let g:colors_name='vimgnome'
 "TEAL   = #00D7C0
 
 " Colors for Syntax Highlighting.
-hi Normal           guibg=#262626   guifg=#FFFFFF                   ctermfg=white
+hi Normal           guibg=#37474f   guifg=#FFFFFF                   ctermfg=white
 hi Comment                          guifg=#FFF8B2                   ctermfg=lightgrey
 
 hi String                           guifg=#00D7C0   gui=italic      ctermfg=lightblue   cterm=italic
@@ -101,7 +101,7 @@ hi SpecialKey       guifg=#EEEEEE   gui=none
 hi NonText          guifg=#EEEEEE   gui=none
 hi CursorLineNr     guibg=#262626   guifg=#EEEEEE   gui=bold
 "hi LineNr          guibg=#262626   guifg=#DB4437 ctermfg=green  gui=bold
-hi LineNr	          guibg=#303030   guifg=#90f020	gui=bold	ctermfg=green cterm=none
+hi LineNr	          guibg=#132731   guifg=#90f020	gui=bold	ctermfg=green cterm=none
 hi Titled           guifg=#EEEEEE   gui=none
 
 hi Pmenu            guibg=#2196F3   guifg=#EEEEEE

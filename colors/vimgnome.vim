@@ -90,8 +90,8 @@ hi IncSearch        guibg=#B71C1C   guifg=#ffffff gui=bold,italic
 hi SignColumn       guibg=#34A16C   guifg=#FF8A80 
 hi ColorColumn      guibg=darkred   guifg=#34A16C
 
-hi WarningMsg       guifg=red       gui=bold,undercurl
-hi ErrorMsg         guifg=red       gui=bold,undercurl
+hi WarningMsg       guifg=#FFFFFF   gui=bold,undercurl
+hi ErrorMsg         guifg=#FFFFFF   gui=bold,undercurl
 hi SpellErrors      guifg=red       gui=bold,undercurl
 hi ModeMsg          guifg=blue      gui=bold
 hi MoreMsg          guifg=blue      gui=bold

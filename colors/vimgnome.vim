@@ -117,7 +117,7 @@ hi Folded           guibg=#427BDA   guifg=#EEEEEE   ctermfg=grey    ctermbg=dark
 hi FoldColumn       guibg=black     guifg=grey20    ctermfg=4       ctermbg=7
 hi StatusLine       guibg=#c2bfa5   guifg=black     gui=none        cterm=bold,reverse
 hi StatusLineNC     guibg=#c2bfa5   guifg=grey40    gui=none        cterm=reverse
-hi WarningMsg       guifg=salmon    ctermfg=1
-hi Ignore           guifg=grey40    cterm=bold      ctermfg=7
-hi ErrorMsg         cterm=bold      guifg=White     guibg=Red       cterm=bold ctermfg=7 ctermbg=1
+" hi WarningMsg       guifg=salmon    ctermfg=1
+" hi Ignore           guifg=grey40    cterm=bold      ctermfg=7
+" hi ErrorMsg         cterm=bold      guifg=White     guibg=Red       cterm=bold ctermfg=7 ctermbg=1
 hi VisualNOS        cterm=bold,underline

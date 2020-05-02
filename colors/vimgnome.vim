@@ -90,7 +90,7 @@ hi IncSearch        guibg=#B71C1C   guifg=#ffffff gui=bold,italic
 hi SignColumn       guibg=#34A16C   guifg=#FF8A80 
 hi ColorColumn      guibg=darkred   guifg=#34A16C
 
-hi WarningMsg       guifg=#FFFFFF   gui=bold,undercurl
+hi WarningMsg       guifg=#FFFFFF   gui=bold,undercurl  ctermfg=1
 hi ErrorMsg         guifg=#FFFFFF   gui=bold,undercurl
 hi SpellErrors      guifg=red       gui=bold,undercurl
 hi ModeMsg          guifg=blue      gui=bold
@@ -121,3 +121,6 @@ hi StatusLineNC     guibg=#c2bfa5   guifg=grey40    gui=none        cterm=revers
 " hi Ignore           guifg=grey40    cterm=bold      ctermfg=7
 " hi ErrorMsg         cterm=bold      guifg=White     guibg=Red       cterm=bold ctermfg=7 ctermbg=1
 hi VisualNOS        cterm=bold,underline
+
+hi CocErrorSign  ctermfg=white guifg=#ff0000
+hi CocWarningSign  ctermfg=white guifg=#0000ff

@@ -14,25 +14,25 @@ let g:colors_name='vimgnome'
 
 "COLORS DEFINED
 let  VgRed         = "#DB4437"
-let  VgRed4        = "#Ef5350"
+let  VgRed4        = "#EF5350"
 let  VgRed9        = "#B71C1C"
 let  VgRedA1       = "#FF8A80"
-let  VgGreen       = "#00a56a"
-let  VgGreenA4     = "#69f0ae"
+let  VgGreen       = "#00A56A"
+let  VgGreenA4     = "#69F0AE"
 let  VgYellow      = "#FFF8B2"
 let  VgBlue        = "#64B5F6"
-let  VgBlue5       = "#e3f2fd"
-let  VgBlue50      = "#1e88e5"
+let  VgBlue5       = "#E3F2FD"
+let  VgBlue50      = "#1E88E5"
 let  VgBlue9       = "#1565C0"
-let  VgBlack       = "#333333"
 let  VgDgrey       = "#656565"
 let  VgLgrey       = "#EEEEEE"
 let  VgBrown       = "#FFB499"
 let  VgTeal        = "#00D7C0"
-let  VgBlueGrey    = "#37474f"
+let  VgBlueGrey    = "#37474F"
 let  VgBlueGrey900 = "#263238"
-let  VgBlueGrey500 = "#607d8b"
+let  VgBlueGrey500 = "#607D8B"
 let  VgWhite3      = "#E0E0E0"
+let  VgBlack       = "#333333"
 
 "        Colors      for           Syntax         Highlighting.
 execute  printf('hi  Normal        guibg=%s       guifg=white           ctermfg=white',      VgBlueGrey)

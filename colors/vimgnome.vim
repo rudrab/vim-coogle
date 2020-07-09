@@ -1,6 +1,5 @@
 "Name:         vim-gnome
-"Description:  A Vim color scheme based on vim-colorscheme-primary
-"              with gnome's Dark-Adwaita Background
+"Description:  A Vim color scheme with dark background
 "Author:       Rudra Banerjee
 "Created:      2015 April 25
 " source hex.txt

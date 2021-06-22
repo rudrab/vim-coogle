@@ -36,7 +36,7 @@ let  VgBlack       = "#333333"
 
 "        Colors      for           Syntax         Highlighting.
 execute  printf('hi  Normal        guibg=%s       guifg=white           ctermfg=white',      VgBlueGrey)
-execute  printf('hi  Comment       guifg=%s       ctermfg=lightgrey',   VgYellow)
+execute  printf('hi  Comment       guifg=%s       ctermfg=%s',          VgYellow, VgYellow)
 execute  printf('hi  Scrollbar     guibg=%s       guifg=%s',            VgBlueGrey900,       VgBlueGrey500)
 execute  printf('hi  String        guifg=%s       gui=italic            ctermfg=lightblue    cterm=italic',        VgTeal)
 execute  printf('hi  Statement     guifg=%s       gui=bold              ctermfg=red          cterm=bold',          VgRed)
